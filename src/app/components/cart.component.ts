@@ -48,7 +48,7 @@ export class CartComponent implements OnInit {
     return sum;
   }
   emptyCart() {
-    alert("Acquisto effettuato!");
+    alert("GRAZIE PER IL SUO ACQUISTO");
     this.cart= [];
   }
 }
